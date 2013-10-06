@@ -70,7 +70,7 @@ if(minute<10)
 	minute="0"+minute
 
 // Concatenate the elements of date
-date = "<br>&nbsp;<br><b>"+ msg +"</b>"+"&nbsp; Now is: "+ year + "-"+ (month+1)+"-"+(day-1)+" "; 
+date = "<br>&nbsp;<br><b>"+ msg +"</b>"+"&nbsp; Now is: "+ year + "-"+ (month+1)+"-"+(d.getDate())+" "; 
 time = hour + ":" + minute + ":" + second; 
 
 // Write the ultimate time & date on HTML
